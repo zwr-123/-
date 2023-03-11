@@ -1,7 +1,8 @@
 # -
-简单的websocket+swing界面
+简单的websocket+swing界面 。代码在master分支中。
 
-把如下代码添加到有直播弹幕信息的js中
+运行程序前，添加如下代码到相应js文件的某个位置。保存到本地，下次网站就加载修改后的js。
+此代码创建了websocket，把弹幕信息发送到本地，可自动重连。
 
 !function(){
                                             if(window.flag){
